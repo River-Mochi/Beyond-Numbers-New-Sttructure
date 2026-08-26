@@ -10,7 +10,7 @@
 
     public class Mod : IMod
     {
-        public static ILog log = LogManager.GetLogger(nameof(Mod)).SetShowsErrorsInUI(false);
+        public static ILog log = LogManager.GetLogger("Beyond Numbers").SetShowsErrorsInUI(false);
         public static Setting m_Setting;
 
         public void OnLoad(UpdateSystem updateSystem)
